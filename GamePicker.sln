@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePickerWeb", "GamePickerWeb\GamePickerWeb.csproj", "{15EE3C13-3E04-4E3D-970F-F9B33217FD46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
