@@ -17,4 +17,22 @@ public class CategoryController : Controller
         
         return View(objCategoryList);
     }
+
+    public IActionResult Create()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Create(Category item)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Add(item);
+            _db.SaveChanges();
+            
+            return RedirectToAction("Index");
+        }
+
+        return View(item);
+    }
 }
