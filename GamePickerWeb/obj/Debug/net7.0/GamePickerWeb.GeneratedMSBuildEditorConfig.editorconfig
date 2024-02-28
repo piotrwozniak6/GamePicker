@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/p.w/Desktop/Projects/C\#/GamePicker/GamePickerWeb/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/p.w/Desktop/Projects/C\#/GamePicker/GamePickerWeb/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
