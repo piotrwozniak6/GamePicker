@@ -33,6 +33,35 @@ public class CategoryController : Controller
             return RedirectToAction("Index");
         }
 
-        return View(item);
+        return View();
+    }
+    public IActionResult Edit(int? id)
+    {
+        if (id == null || id == 0)
+        {
+            return NotFound();
+        }
+
+        Category? categoryDb = _db.Categories.Find(id);
+
+        if (categoryDb == null)
+        {
+            return NotFound();
+        }
+        
+        return View(categoryDb);
+    }
+    [HttpPost]
+    public IActionResult Edit(Category item)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Update(item);
+            _db.SaveChanges();
+            
+            return RedirectToAction("Index");
+        }
+
+        return View();
     }
 }
