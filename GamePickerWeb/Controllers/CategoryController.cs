@@ -1,5 +1,5 @@
-using GamePickerWeb.Data;
-using GamePickerWeb.Models;
+using GamePickerDataAccess.Data;
+using GamePickerModels.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GamePickerWeb.Controllers;

@@ -1,4 +1,4 @@
-using GamePickerWeb.Data;
+using GamePickerDataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
