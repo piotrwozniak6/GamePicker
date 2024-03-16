@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePickerWeb", "GamePickerWeb\GamePickerWeb.csproj", "{15EE3C13-3E04-4E3D-970F-F9B33217FD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePickerDataAccess", "GamePickerDataAccess\GamePickerDataAccess.csproj", "{33F31772-AF49-4CB2-83CB-3B3964BA61A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePickerModels", "GamePickerModels\GamePickerModels.csproj", "{1FD8F9CE-EA1F-4BFC-BE92-16EC1F75428F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePickerUtility", "GamePickerUtility\GamePickerUtility.csproj", "{48BB1E82-17E8-4173-BFBB-436CC708E780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EE3C13-3E04-4E3D-970F-F9B33217FD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F31772-AF49-4CB2-83CB-3B3964BA61A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F31772-AF49-4CB2-83CB-3B3964BA61A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F31772-AF49-4CB2-83CB-3B3964BA61A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F31772-AF49-4CB2-83CB-3B3964BA61A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD8F9CE-EA1F-4BFC-BE92-16EC1F75428F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD8F9CE-EA1F-4BFC-BE92-16EC1F75428F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD8F9CE-EA1F-4BFC-BE92-16EC1F75428F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD8F9CE-EA1F-4BFC-BE92-16EC1F75428F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BB1E82-17E8-4173-BFBB-436CC708E780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BB1E82-17E8-4173-BFBB-436CC708E780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BB1E82-17E8-4173-BFBB-436CC708E780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BB1E82-17E8-4173-BFBB-436CC708E780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

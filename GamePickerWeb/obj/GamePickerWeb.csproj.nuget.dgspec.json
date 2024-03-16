@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/GamePickerWeb.csproj": {}
+  },
+  "projects": {
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj",
+        "projectName": "GamePickerDataAccess",
+        "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj",
+        "packagesPath": "/Users/p.w/.nuget/packages/",
+        "outputPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/p.w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj": {
+                "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj",
+        "projectName": "GamePickerModels",
+        "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj",
+        "packagesPath": "/Users/p.w/.nuget/packages/",
+        "outputPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/p.w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/GamePickerWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/GamePickerWeb.csproj",
+        "projectName": "GamePickerWeb",
+        "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/GamePickerWeb.csproj",
+        "packagesPath": "/Users/p.w/.nuget/packages/",
+        "outputPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/p.w/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj": {
+                "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
