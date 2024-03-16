@@ -1077,6 +1077,31 @@
             "rid": "win"
           }
         }
+      },
+      "GamePickerDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GamePickerModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16"
+        },
+        "compile": {
+          "bin/placeholder/GamePickerDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamePickerDataAccess.dll": {}
+        }
+      },
+      "GamePickerModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GamePickerModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamePickerModels.dll": {}
+        }
       }
     }
   },
@@ -2943,10 +2968,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "GamePickerDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../GamePickerDataAccess/GamePickerDataAccess.csproj",
+      "msbuildProject": "../GamePickerDataAccess/GamePickerDataAccess.csproj"
+    },
+    "GamePickerModels/1.0.0": {
+      "type": "project",
+      "path": "../GamePickerModels/GamePickerModels.csproj",
+      "msbuildProject": "../GamePickerModels/GamePickerModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "GamePickerDataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.16"
@@ -2977,7 +3013,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj": {
+              "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

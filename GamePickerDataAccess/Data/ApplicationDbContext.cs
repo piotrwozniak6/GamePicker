@@ -1,7 +1,7 @@
-using GamePickerWeb.Models;
+using GamePickerModels.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GamePickerWeb.Data;
+namespace GamePickerDataAccess.Data;
 
 public class ApplicationDbContext: DbContext
 {
