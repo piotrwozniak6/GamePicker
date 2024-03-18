@@ -1,4 +1,6 @@
 using GamePickerDataAccess.Data;
+using GamePickerDataAccess.Repository;
+using GamePickerDataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,8 @@ builder.Services.AddControllersWithViews();
 
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connString));
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); 
 
 var app = builder.Build();
 
