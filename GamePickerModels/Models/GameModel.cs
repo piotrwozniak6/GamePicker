@@ -16,7 +16,7 @@ public class GameModel
     [Range(1, 500)]
     public string RegularPrice { get; set; }
     [Required]
-    [Display(Name = "Price for 1-50 units")]
+    [Display(Name = "Price for 1-50 unitss")]
     [Range(1, 500)]
     public string Price { get; set; }
     [Required]

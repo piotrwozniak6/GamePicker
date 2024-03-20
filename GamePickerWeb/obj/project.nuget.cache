@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mLaARQUMZ3MEaRlMBrDdObjtF0cQ4kHmzUPzxFweGNBvu9hWgHSI3y/OmHjFSGojD7gGaiOVQpqLv/oHAgHqeQ==",
+  "dgSpecHash": "am5F/F7Lvzi14iNaDkJ32q6GKKlb+07z+p0w9Pj9VQAbhDsunVNOciLLkmC5uGZwlKaX78SCiQOr6ASh5ykeTw==",
   "success": true,
-  "projectFilePath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/GamePickerWeb.csproj",
+  "projectFilePath": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/GamePickerWeb.csproj",
   "expectedPackageFiles": [
     "/Users/p.w/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/p.w/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
