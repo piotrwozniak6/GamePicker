@@ -1,4 +1,4 @@
-namespace GamePickerWeb.Models;
+namespace GamePickerModels.Models;
 
 public class ErrorViewModel
 {
