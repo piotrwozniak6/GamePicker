@@ -28,3 +28,5 @@
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/refint/GamePickerDataAccess.dll
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.pdb
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll
+/Users/p.w/Desktop/GamePicker/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.runtimeconfig.json
+/Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.genruntimeconfig.cache
