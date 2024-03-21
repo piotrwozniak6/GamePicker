@@ -10,6 +10,7 @@
         "dependencies": {
           "GamePickerDataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.16",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.16",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.12"
@@ -2505,8 +2506,10 @@
       "GamePickerDataAccess/1.0.0": {
         "dependencies": {
           "GamePickerModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.16",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.16",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.12"
         },
         "runtime": {
           "GamePickerDataAccess.dll": {}

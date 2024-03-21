@@ -14,17 +14,17 @@ public class GameModel
     [Required]
     [Display(Name = "Regular Price")]
     [Range(1, 500)]
-    public string RegularPrice { get; set; }
+    public double RegularPrice { get; set; }
     [Required]
-    [Display(Name = "Price for 1-50 unitss")]
+    [Display(Name = "Price for 1-50 units")]
     [Range(1, 500)]
-    public string Price { get; set; }
+    public double Price { get; set; }
     [Required]
     [Display(Name = "Price for 50+ units")]
     [Range(1, 500)]
-    public string Price50 { get; set; }
+    public double Price50 { get; set; }
     [Required]
     [Display(Name = "Price for 100+ units")]
     [Range(1, 500)]
-    public string Price100 { get; set; }
+    public double Price100 { get; set; }
 }

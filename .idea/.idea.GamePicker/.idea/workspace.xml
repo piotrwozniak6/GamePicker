@@ -10,63 +10,52 @@
   <component name="ChangeListManager">
     <list default="true" id="260decdb-98aa-407a-bd6d-15f21ffe58cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/GamePickerDataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/GamePickerDataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerModels.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/refint/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/refint/GamePickerDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/GamePickerDataAccess.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerModels/Models/GameModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/Models/GameModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/bin/Debug/net7.0/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/bin/Debug/net7.0/GamePickerModels.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/bin/Debug/net7.0/GamePickerModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/bin/Debug/net7.0/GamePickerModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/GamePickerModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/GamePickerModels.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/GamePickerModels.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/ref/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/ref/GamePickerModels.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/refint/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/Debug/net7.0/refint/GamePickerModels.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/GamePickerUtility.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/GamePickerUtility.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerModels.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerModels.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/GamePickerWeb.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/GamePickerWeb.csproj.EntityFrameworkCore.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/GamePickerWeb.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/GamePickerWeb.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/project.nuget.cache" afterDir="false" />
@@ -107,13 +96,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/c1",
+    "git-widget-placeholder": "feature/c4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -140,7 +129,7 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="GamePickerWeb: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+    <configuration name="GamePickerWeb: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
@@ -155,6 +144,10 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.GamePickerWeb: http" />
+      <item itemvalue=".NET Launch Settings Profile.GamePickerWeb: https" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,5 +176,9 @@
         <PinnedItemInfo parentTag="Frame#GamePickerWeb.Controllers.CategoryController.Index" memberName="this" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

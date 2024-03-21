@@ -21,7 +21,7 @@ namespace GamePickerWeb.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GamePickerWeb.Models.Category", b =>
+            modelBuilder.Entity("GamePickerModels.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,7 +31,8 @@ namespace GamePickerWeb.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<int>("Order")
                         .HasColumnType("int");
@@ -58,6 +59,133 @@ namespace GamePickerWeb.Migrations
                             Id = 3,
                             Name = "Sports",
                             Order = 3
+                        });
+                });
+
+            modelBuilder.Entity("GamePickerModels.Models.GameModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Publisher")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("RegularPrice")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GameModels");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Ghost of Tsushima for PC is an award winning action adventure open world game, with a third-person player perspective. It is set in ancient feudal Japan, but the issues faced by the protagonist will be easily understood by Western, modern players.",
+                            Price = 50.0,
+                            Price100 = 40.0,
+                            Price50 = 45.0,
+                            Publisher = "PlayStation PC LLC",
+                            RegularPrice = 50.0,
+                            Title = "Ghost of Tsushima: Director's Cut"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Join Aloy as she braves a majestic but dangerous new frontier that holds mysterious new threats. This Complete Edition allows you to enjoy the critically acclaimed Horizon Forbidden West on PC in its entirety with bonus content, including the Burning Shores story expansion that picks up after the main game.",
+                            Price = 50.0,
+                            Price100 = 40.0,
+                            Price50 = 45.0,
+                            Publisher = "PlayStation PC LLC, Sony Interactive Entertainment",
+                            RegularPrice = 50.0,
+                            Title = "Horizon Forbidden West Complete Edition - Europe"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Winner of hundreds of accolades including The Game Awards Game of the Year and Golden Joystick Awards Ultimate Game of the Year, ELDEN RING is the acclaimed action RPG epic set in a vast, dark fantasy world. Players embark on an epic quest with the freedom to explore and adventure at their own pace.",
+                            Price = 34.0,
+                            Price100 = 28.0,
+                            Price50 = 31.0,
+                            Publisher = "BANDAI NAMCO Entertainment, FromSoftware, Inc.",
+                            RegularPrice = 34.0,
+                            Title = "Elden Ring - Shadow of the Erdtree - Europe"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Insurgency: Sandstorm is a team-based, tactical FPS based on lethal close quarters combat and objective-oriented multiplayer gameplay. Sequel to the indie breakout FPS Insurgency, Sandstorm is reborn, improved, expanded, and bigger in every way. Experience the intensity of modern combat where skill is rewarded, and teamwork wins the fight. Prepare for a hardcore depiction of combat with deadly ballistics, light attack vehicles, destructive artillery, and HDR audio putting the fear back into the genre.",
+                            Price = 10.0,
+                            Price100 = 8.0,
+                            Price50 = 9.0,
+                            Publisher = "Focus Entertainment",
+                            RegularPrice = 10.0,
+                            Title = "Insurgency: Sandstorm"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Battlefield 4 Premium Edition gives you new maps, modes, and more in one simple package. Complete challenging assignments to unlock new weapons. Dominate tactical challenges in a huge interactive environment — demolish buildings shielding your enemies, lead an assault from the back of a gun boat, or make a little C4 go a long way. In massive 64-player battles, use all your resources and play to your strengths to carve your own path to victory.",
+                            Price = 9.0,
+                            Price100 = 7.0,
+                            Price50 = 8.0,
+                            Publisher = "Electronic Arts",
+                            RegularPrice = 9.0,
+                            Title = "Battlefield 4: Premium Edition"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\nFC Points not available in Belgium.",
+                            Price = 42.0,
+                            Price100 = 35.0,
+                            Price50 = 38.0,
+                            Publisher = "Electronic Arts",
+                            RegularPrice = 42.0,
+                            Title = "EA Sports FC 24"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Description = "WrestleMania is the biggest event in sports entertainment, where Superstars become WWE Legends. Experience a gripping retelling of WrestleMania’s greatest moments in 2K Showcase of the Immortals, where you can relive a collection of some of the most unforgettable, career-defining matches.",
+                            Price = 48.0,
+                            Price100 = 40.0,
+                            Price50 = 45.0,
+                            Publisher = "Visual Concepts",
+                            RegularPrice = 48.0,
+                            Title = "WWE 2K24 - Europe"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Description = "Boxing is Back! Undisputed is an authentic boxing game developed with care by dedicated fight fans, alongside the professional boxing community.",
+                            Price = 25.0,
+                            Price100 = 20.0,
+                            Price50 = 22.0,
+                            Publisher = "Steel City Interactive",
+                            RegularPrice = 25.0,
+                            Title = "Undisputed"
                         });
                 });
 #pragma warning restore 612, 618
