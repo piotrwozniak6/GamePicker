@@ -70,6 +70,9 @@ namespace GamePickerWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -96,12 +99,15 @@ namespace GamePickerWeb.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("GameModels");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            CategoryId = 1,
                             Description = "Ghost of Tsushima for PC is an award winning action adventure open world game, with a third-person player perspective. It is set in ancient feudal Japan, but the issues faced by the protagonist will be easily understood by Western, modern players.",
                             Price = 50.0,
                             Price100 = 40.0,
@@ -113,6 +119,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 2,
+                            CategoryId = 1,
                             Description = "Join Aloy as she braves a majestic but dangerous new frontier that holds mysterious new threats. This Complete Edition allows you to enjoy the critically acclaimed Horizon Forbidden West on PC in its entirety with bonus content, including the Burning Shores story expansion that picks up after the main game.",
                             Price = 50.0,
                             Price100 = 40.0,
@@ -124,6 +131,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 3,
+                            CategoryId = 1,
                             Description = "Winner of hundreds of accolades including The Game Awards Game of the Year and Golden Joystick Awards Ultimate Game of the Year, ELDEN RING is the acclaimed action RPG epic set in a vast, dark fantasy world. Players embark on an epic quest with the freedom to explore and adventure at their own pace.",
                             Price = 34.0,
                             Price100 = 28.0,
@@ -135,6 +143,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 4,
+                            CategoryId = 2,
                             Description = "Insurgency: Sandstorm is a team-based, tactical FPS based on lethal close quarters combat and objective-oriented multiplayer gameplay. Sequel to the indie breakout FPS Insurgency, Sandstorm is reborn, improved, expanded, and bigger in every way. Experience the intensity of modern combat where skill is rewarded, and teamwork wins the fight. Prepare for a hardcore depiction of combat with deadly ballistics, light attack vehicles, destructive artillery, and HDR audio putting the fear back into the genre.",
                             Price = 10.0,
                             Price100 = 8.0,
@@ -146,6 +155,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 5,
+                            CategoryId = 2,
                             Description = "Battlefield 4 Premium Edition gives you new maps, modes, and more in one simple package. Complete challenging assignments to unlock new weapons. Dominate tactical challenges in a huge interactive environment — demolish buildings shielding your enemies, lead an assault from the back of a gun boat, or make a little C4 go a long way. In massive 64-player battles, use all your resources and play to your strengths to carve your own path to victory.",
                             Price = 9.0,
                             Price100 = 7.0,
@@ -157,6 +167,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 6,
+                            CategoryId = 3,
                             Description = "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\nFC Points not available in Belgium.",
                             Price = 42.0,
                             Price100 = 35.0,
@@ -168,6 +179,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 7,
+                            CategoryId = 3,
                             Description = "WrestleMania is the biggest event in sports entertainment, where Superstars become WWE Legends. Experience a gripping retelling of WrestleMania’s greatest moments in 2K Showcase of the Immortals, where you can relive a collection of some of the most unforgettable, career-defining matches.",
                             Price = 48.0,
                             Price100 = 40.0,
@@ -179,6 +191,7 @@ namespace GamePickerWeb.Migrations
                         new
                         {
                             Id = 8,
+                            CategoryId = 3,
                             Description = "Boxing is Back! Undisputed is an authentic boxing game developed with care by dedicated fight fans, alongside the professional boxing community.",
                             Price = 25.0,
                             Price100 = 20.0,
@@ -187,6 +200,17 @@ namespace GamePickerWeb.Migrations
                             RegularPrice = 25.0,
                             Title = "Undisputed"
                         });
+                });
+
+            modelBuilder.Entity("GamePickerModels.Models.GameModel", b =>
+                {
+                    b.HasOne("GamePickerModels.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

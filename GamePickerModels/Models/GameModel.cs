@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GamePickerModels.Models;
 
@@ -27,4 +28,7 @@ public class GameModel
     [Display(Name = "Price for 100+ units")]
     [Range(1, 500)]
     public double Price100 { get; set; }
+    public int CategoryId { get; set; }
+    [ForeignKey("CategoryId")]
+    public Category Category { get; set; }
 }
