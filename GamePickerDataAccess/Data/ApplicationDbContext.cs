@@ -32,7 +32,8 @@ public class ApplicationDbContext: DbContext
                 Price = 50,
                 Price50 = 45,
                 Price100 = 40,
-                CategoryId = 1
+                CategoryId = 1,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -44,7 +45,8 @@ public class ApplicationDbContext: DbContext
                 Price = 50,
                 Price50 = 45,
                 Price100 = 40,
-                CategoryId = 1
+                CategoryId = 1,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -56,7 +58,8 @@ public class ApplicationDbContext: DbContext
                 Price = 34,
                 Price50 = 31,
                 Price100 = 28,
-                CategoryId = 1
+                CategoryId = 1,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -68,7 +71,8 @@ public class ApplicationDbContext: DbContext
                 Price = 10,
                 Price50 = 9,
                 Price100 = 8,
-                CategoryId = 2
+                CategoryId = 2,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -80,7 +84,8 @@ public class ApplicationDbContext: DbContext
                 Price = 9,
                 Price50 = 8,
                 Price100 = 7,
-                CategoryId = 2
+                CategoryId = 2,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -92,7 +97,8 @@ public class ApplicationDbContext: DbContext
                 Price = 42,
                 Price50 = 38,
                 Price100 = 35,
-                CategoryId = 3
+                CategoryId = 3,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -104,7 +110,8 @@ public class ApplicationDbContext: DbContext
                 Price = 48,
                 Price50 = 45,
                 Price100 = 40,
-                CategoryId = 3
+                CategoryId = 3,
+                ImageUrl = ""
             },
             new GameModel
             {
@@ -116,7 +123,8 @@ public class ApplicationDbContext: DbContext
                 Price = 25,
                 Price50 = 22,
                 Price100 = 20,
-                CategoryId = 3
+                CategoryId = 3,
+                ImageUrl = ""
             }
         );
     }

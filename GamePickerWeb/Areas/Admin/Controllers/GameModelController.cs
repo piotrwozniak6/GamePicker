@@ -1,7 +1,10 @@
 using GamePickerDataAccess.Data;
 using GamePickerDataAccess.Repository.IRepository;
 using GamePickerModels.Models;
+using GamePickerModels.ViewModels;
+using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace GamePickerWeb.Areas.Admin.Controllers;
 
@@ -16,57 +19,54 @@ public class GameModelController : Controller
     public IActionResult Index()
     {
         List<GameModel> objGameModelList = _unitOfWork.GameModelRepository.GetAll().ToList();
-        
         return View(objGameModelList);
     }
 
-    public IActionResult Create()
+    public IActionResult Upsert(int? id)
     {
-        return View();
+        IEnumerable<SelectListItem> Categories = _unitOfWork.CategoryRepository.GetAll().Select(u=> new SelectListItem
+        {
+            Text = u.Name,
+            Value = u.Id.ToString()
+        });
+
+        GameModelVM gameModelVm = new()
+        {
+            Categories = Categories,
+            GameModel = new GameModel()
+        };
+        if (id == null || id == 0)
+        {
+            return View(gameModelVm);
+        }
+        else
+        {
+            gameModelVm.GameModel = _unitOfWork.GameModelRepository.Get(u => u.Id == id);
+            return View(gameModelVm);
+        }
+            
     }
     [HttpPost]
-    public IActionResult Create(GameModel item)
+    public IActionResult Upsert(GameModelVM gameModelVm, IFormFile? file)
     {
         if (ModelState.IsValid)
         {
-            _unitOfWork.GameModelRepository.Add(item);
+            _unitOfWork.GameModelRepository.Add(gameModelVm.GameModel);
             _unitOfWork.Save();
             TempData["success"] = "GameModel created successfully";
             
             return RedirectToAction("Index");
         }
-
-        return View();
-    }
-    public IActionResult Edit(int? id)
-    {
-        if (id == null || id == 0)
+        else
         {
-            return NotFound();
-        }
+            gameModelVm.Categories = _unitOfWork.CategoryRepository.GetAll().Select(u=> new SelectListItem
+            {
+                Text = u.Name,
+                Value = u.Id.ToString()
+            });
 
-        GameModel? gameModelDb = _unitOfWork.GameModelRepository.Get(u => u.Id == id);
-
-        if (gameModelDb == null)
-        {
-            return NotFound();
+            return View(gameModelVm);
         }
-        
-        return View(gameModelDb);
-    }
-    [HttpPost]
-    public IActionResult Edit(GameModel item)
-    {
-        if (ModelState.IsValid)
-        {
-            _unitOfWork.GameModelRepository.Update(item);
-            _unitOfWork.Save();
-            TempData["success"] = "GameModel updated successfully";
-            
-            return RedirectToAction("Index");
-        }
-
-        return View();
     }
     public IActionResult Delete(int? id)
     {
