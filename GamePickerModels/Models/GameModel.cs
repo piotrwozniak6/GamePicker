@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace GamePickerModels.Models;
 
@@ -29,6 +30,9 @@ public class GameModel
     [Range(1, 500)]
     public double Price100 { get; set; }
     public int CategoryId { get; set; }
+    [ValidateNever]
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
+    [ValidateNever]
+    public string ImageUrl { get; set; }
 }

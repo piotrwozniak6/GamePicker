@@ -512,3 +512,6 @@
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.pdb
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.genruntimeconfig.cache
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/obj/Debug/net7.0/ref/GamePickerWeb.dll
+/Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/Users/p.w/Desktop/GamePicker/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.MvcApplicationPartsAssemblyInfo.cs
