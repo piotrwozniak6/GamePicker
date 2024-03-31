@@ -2,6 +2,7 @@ using System.Linq.Expressions;
 using GamePickerDataAccess.Data;
 using GamePickerDataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace GamePickerDataAccess.Repository;
 
@@ -13,19 +14,37 @@ public class Repository<T>: IRepository<T> where T : class
     public Repository(ApplicationDbContext db)
     {
         _db = db;
-        this.dbSet = _db.Set<T>(); 
+        this.dbSet = _db.Set<T>();
+        _db.GameModels.Include(u => u.Category);
     }
     
-    public IEnumerable<T> GetAll()
+    public IEnumerable<T> GetAll(string? includeItems = null)
     {
         IQueryable<T> query = dbSet;
+        if (!string.IsNullOrEmpty(includeItems))
+        {
+            foreach (var includeItem in includeItems
+                         .Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeItem);
+            }
+        }
         return query.ToList();
     }
 
-    public T Get(Expression<Func<T, bool>> filter)
+    public T Get(Expression<Func<T, bool>> filter, string? includeItems = null)
     {
         IQueryable<T> query = dbSet;
         query = query.Where(filter);
+        
+        if (!string.IsNullOrEmpty(includeItems))
+        {
+            foreach (var includeItem in includeItems
+                         .Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeItem);
+            }
+        }
         return query.FirstOrDefault();
     }
 
