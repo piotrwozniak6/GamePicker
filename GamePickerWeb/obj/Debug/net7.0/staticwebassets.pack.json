@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/27b2390b-5a2a-4a4e-b37d-ddf4aba1b201.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/27b2390b-5a2a-4a4e-b37d-ddf4aba1b201.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/2eca6bee-d613-4436-9fb0-2af1d0742333.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/2eca6bee-d613-4436-9fb0-2af1d0742333.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/4a809a07-a4d9-434c-b7cd-ab306623b4fb.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/4a809a07-a4d9-434c-b7cd-ab306623b4fb.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/8cb932a9-aa79-4e69-8bd1-7e3ba7c027a3.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/8cb932a9-aa79-4e69-8bd1-7e3ba7c027a3.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/b85658a3-7afe-4866-9e20-55e664b47a48.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/b85658a3-7afe-4866-9e20-55e664b47a48.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ba05899c-585a-4326-804e-ffe703ed856f.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/ba05899c-585a-4326-804e-ffe703ed856f.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/e149371f-2cba-42db-ab5b-5c36efa6d1bc.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/e149371f-2cba-42db-ab5b-5c36efa6d1bc.jpg"
+    },
+    {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg",
+      "PackagePath": "staticwebassets/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg"
+    },
+    {
       "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

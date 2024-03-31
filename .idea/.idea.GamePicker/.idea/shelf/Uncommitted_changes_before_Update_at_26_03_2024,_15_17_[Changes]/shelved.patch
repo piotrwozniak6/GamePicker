@@ -1,0 +1,45 @@
+Index: GamePickerWeb/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17110224314771871
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GamePickerWeb/obj/rider.project.model.nuget.info b/GamePickerWeb/obj/rider.project.model.nuget.info
+--- a/GamePickerWeb/obj/rider.project.model.nuget.info	(revision 30cc28776ca6c82ef5328f814adcf415406783dc)
++++ b/GamePickerWeb/obj/rider.project.model.nuget.info	(date 1711462613223)
+@@ -1,1 +1,1 @@
+-17110224314771871
+\ No newline at end of file
++17114626060703962
+\ No newline at end of file
+Index: GamePickerDataAccess/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17110224314662405
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GamePickerDataAccess/obj/rider.project.model.nuget.info b/GamePickerDataAccess/obj/rider.project.model.nuget.info
+--- a/GamePickerDataAccess/obj/rider.project.model.nuget.info	(revision 30cc28776ca6c82ef5328f814adcf415406783dc)
++++ b/GamePickerDataAccess/obj/rider.project.model.nuget.info	(date 1711462613224)
+@@ -1,1 +1,1 @@
+-17110224314662405
+\ No newline at end of file
++17114626060415928
+\ No newline at end of file
+Index: GamePickerModels/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17109488469995435
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/GamePickerModels/obj/rider.project.model.nuget.info b/GamePickerModels/obj/rider.project.model.nuget.info
+--- a/GamePickerModels/obj/rider.project.model.nuget.info	(revision 30cc28776ca6c82ef5328f814adcf415406783dc)
++++ b/GamePickerModels/obj/rider.project.model.nuget.info	(date 1711462613222)
+@@ -1,1 +1,1 @@
+-17109488469995435
+\ No newline at end of file
++17114626060506161
+\ No newline at end of file
