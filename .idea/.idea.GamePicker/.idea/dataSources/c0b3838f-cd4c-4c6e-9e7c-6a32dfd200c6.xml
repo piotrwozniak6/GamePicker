@@ -17097,7 +17097,7 @@
     </table>
     <table id="5620" parent="5608" name="GameModels">
       <CreatedTimestamp>2024-03-21.12:22:51.943</CreatedTimestamp>
-      <ModifiedTimestamp>2024-03-22.13:20:35.213</ModifiedTimestamp>
+      <ModifiedTimestamp>2024-03-22.20:33:42.127</ModifiedTimestamp>
       <ObjectId>1269579561</ObjectId>
     </table>
     <table id="5621" parent="5608" name="__EFMigrationsHistory">
@@ -17380,7 +17380,7 @@
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1(9)</SequenceIdentity>
+      <SequenceIdentity>1(14)</SequenceIdentity>
     </column>
     <column id="5678" parent="5620" name="Title">
       <DasType>nvarchar(max)|0s</DasType>
@@ -17424,14 +17424,28 @@
       <DefaultConstraintId>1301579675</DefaultConstraintId>
       <DefaultConstraintName>DF__GameModel__Categ__4D94879B</DefaultConstraintName>
     </column>
-    <default id="5686" parent="5620" name="DF__GameModel__Categ__4D94879B">
+    <column id="5686" parent="5620" name="ImageUrl">
+      <DasType>nvarchar(max)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <DefaultConstraintId>1333579789</DefaultConstraintId>
+      <DefaultConstraintName>DF__GameModel__Image__4F7CD00D</DefaultConstraintName>
+    </column>
+    <default id="5687" parent="5620" name="DF__GameModel__Categ__4D94879B">
       <ColNames>CategoryId</ColNames>
       <DefaultExpression>0</DefaultExpression>
       <ModifiedTimestamp>2024-03-22.13:20:35.037</ModifiedTimestamp>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>1301579675</ObjectId>
     </default>
-    <foreign-key id="5687" parent="5620" name="FK_GameModels_Categories_CategoryId">
+    <default id="5688" parent="5620" name="DF__GameModel__Image__4F7CD00D">
+      <ColNames>ImageUrl</ColNames>
+      <DefaultExpression>N&apos;&apos;</DefaultExpression>
+      <ModifiedTimestamp>2024-03-22.20:33:42.130</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1333579789</ObjectId>
+    </default>
+    <foreign-key id="5689" parent="5620" name="FK_GameModels_Categories_CategoryId">
       <ColNames>CategoryId</ColNames>
       <CreatedTimestamp>2024-03-22.13:20:35.213</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-22.13:20:35.213</ModifiedTimestamp>
@@ -17441,40 +17455,40 @@
       <RefTableId>1237579447</RefTableId>
       <RefTableName>Categories</RefTableName>
     </foreign-key>
-    <index id="5688" parent="5620" name="PK_GameModels">
+    <index id="5690" parent="5620" name="PK_GameModels">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
     </index>
-    <index id="5689" parent="5620" name="IX_GameModels_CategoryId">
+    <index id="5691" parent="5620" name="IX_GameModels_CategoryId">
       <ColNames>CategoryId</ColNames>
       <Position>2</Position>
     </index>
-    <key id="5690" parent="5620" name="PK_GameModels">
+    <key id="5692" parent="5620" name="PK_GameModels">
       <CreatedTimestamp>2024-03-21.12:22:51.943</CreatedTimestamp>
       <ModifiedTimestamp>2024-03-21.12:22:51.943</ModifiedTimestamp>
       <ObjectId>1285579618</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_GameModels</UnderlyingIndexName>
     </key>
-    <column id="5691" parent="5621" name="MigrationId">
+    <column id="5693" parent="5621" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5692" parent="5621" name="ProductVersion">
+    <column id="5694" parent="5621" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5693" parent="5621" name="PK___EFMigrationsHistory">
+    <index id="5695" parent="5621" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
     </index>
-    <key id="5694" parent="5621" name="PK___EFMigrationsHistory">
+    <key id="5696" parent="5621" name="PK___EFMigrationsHistory">
       <CreatedTimestamp>2024-02-23.17:17:05.587</CreatedTimestamp>
       <ModifiedTimestamp>2024-02-23.17:17:05.587</ModifiedTimestamp>
       <ObjectId>1221579390</ObjectId>

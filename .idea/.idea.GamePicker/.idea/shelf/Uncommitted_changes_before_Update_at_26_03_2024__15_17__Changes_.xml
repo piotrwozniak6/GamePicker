@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]" date="1711462648177" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26/03/2024, 15:17 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/GamePickerDataAccess.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/GamePickerWeb.csproj.AssemblyReference.cache" />
+  </binary>
+</changelist>

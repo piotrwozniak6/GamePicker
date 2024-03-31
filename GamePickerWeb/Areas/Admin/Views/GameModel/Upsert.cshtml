@@ -10,20 +10,25 @@
     </div>
     <div class="card-body p-4">
         <form method="post" enctype="multipart/form-data">
+            <input asp-for="GameModel.Id" hidden />
+            <input asp-for="GameModel.ImageUrl" hidden />
             <div class="border p-3">
+                <div class="mb-3 row">
+                    <img src="@Model.GameModel.ImageUrl" width="50%"/>
+                </div>
                 <div class="mb-3 row">
                     <label asp-for="GameModel.Title"></label>
                     <input asp-for="GameModel.Title" class="form-control">
                     <span asp-validation-for="GameModel.Title" class="text-danger"></span>
                 </div>
                 <div class="mb-3 row">
-                    <label asp-for="GameModel.Description"></label>
-                    <textarea asp-for="GameModel.Description" class="form-control"></textarea>
-                </div>
-                <div class="mb-3 row">
                     <label asp-for="GameModel.Publisher"></label>
                     <input asp-for="GameModel.Publisher" class="form-control">
                     <span asp-validation-for="GameModel.Publisher" class="text-danger"></span>
+                </div>
+                <div class="mb-3 row">
+                    <label asp-for="GameModel.Description"></label>
+                    <textarea asp-for="GameModel.Description" class="form-control"></textarea>
                 </div>
                 <div class="mb-3 row">
                     <label asp-for="GameModel.RegularPrice"></label>
@@ -54,7 +59,7 @@
                 </div>
                 <div class="mb-3 row">
                     <label asp-for="GameModel.ImageUrl"></label>
-                    <input type="file" class="form-control"/>
+                    <input type="file" name="file" class="form-control"/>
                 </div>
                 <div class="row">
                     <div class="col-3">
