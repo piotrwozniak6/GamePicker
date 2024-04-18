@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K8r+eGGhCFJzGnNp0YHKUyF86Jzrhrru+rb+Kj/yld4=",
+  "Hash": "JyM5/teRs9b+C11wwTc0dWSfbtLnNqGQPnEHZs1OPfs=",
   "Source": "GamePickerWeb",
   "BasePath": "_content/GamePickerWeb",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg"
+    },
+    {
+      "Identity": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/gameModel.js",
+      "SourceId": "GamePickerWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/",
+      "BasePath": "_content/GamePickerWeb",
+      "RelativePath": "js/gameModel.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/gameModel.js"
     },
     {
       "Identity": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/site.js",

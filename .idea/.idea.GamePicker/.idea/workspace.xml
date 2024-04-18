@@ -9,33 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="260decdb-98aa-407a-bd6d-15f21ffe58cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/dataSources/c0b3838f-cd4c-4c6e-9e7c-6a32dfd200c6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/dataSources/c0b3838f-cd4c-4c6e-9e7c-6a32dfd200c6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_21_03_2024,_13_00_[Changes]/GamePickerDataAccess.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_21_03_2024,_13_00_[Changes]/GamePickerWeb.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_21_03_2024,_13_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_21_03_2024__13_00__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/dataSources/c0b3838f-cd4c-4c6e-9e7c-6a32dfd200c6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/GamePickerDataAccess.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/GamePickerWeb.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024,_15_17_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/shelf/Uncommitted_changes_before_Update_at_26_03_2024__15_17__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GamePicker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/Repository/GameModelRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/Repository/GameModelRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/Repository/IRepository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/Repository/IRepository/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/Repository/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/refint/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/Debug/net7.0/refint/GamePickerDataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerDataAccess/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerModels/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerUtility/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Controllers/GameModelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Controllers/GameModelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Views/GameModel/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Views/GameModel/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Views/GameModel/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/Areas/Admin/Views/GameModel/Upsert.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerDataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamePickerWeb/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/bin/Debug/net7.0/GamePickerWeb.staticwebassets.runtime.json" afterDir="false" />
@@ -49,12 +35,18 @@
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets/msbuild.GamePickerWeb.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/Debug/net7.0/staticwebassets/msbuild.GamePickerWeb.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GamePickerWeb/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GamePickerWeb/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -66,6 +58,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/GamePickerModels/ViewModels/GameModelVM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2ec5613a6c7fb0d974d1b2d578eb5e11a9c2f5e532dfb3fcbb2a1b61a3e23cba/Controller.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -79,28 +72,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/x1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/x99&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/p.w/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/p.w/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/p.w/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/p.w/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/p.w/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/p.w/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GamePickerWeb: https">
     <configuration name="GamePickerWeb: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GamePickerWeb/GamePickerWeb.csproj" />
@@ -148,6 +141,14 @@
       <workItem from="1707942145898" duration="169726000" />
       <workItem from="1709645549191" duration="47057000" />
       <workItem from="1710948841909" duration="1020000" />
+      <workItem from="1712476817389" duration="9760000" />
+      <workItem from="1713346381160" duration="2259000" />
+      <workItem from="1713354186321" duration="8409000" />
+      <workItem from="1713422236376" duration="1137000" />
+      <workItem from="1713423677274" duration="1825000" />
+      <workItem from="1713443153429" duration="9105000" />
+      <workItem from="1713461483178" duration="3120000" />
+      <workItem from="1713465418773" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="implementing GameModelController and GameModel views">
       <option name="closed" value="true" />

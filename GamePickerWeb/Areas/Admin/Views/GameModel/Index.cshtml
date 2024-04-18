@@ -6,47 +6,29 @@
             <div class="col-6">
                 <h2 class="text-white py-2">Categories</h2>
             </div>
-                <div class="col-6 text-end">
-                    <a asp-controller="GameModel" asp-action="Upsert" class="btn btn-outline-secondary">
-                        <i class="bi bi-plus-lg"></i> New GameModel
-                    </a>
-                </div>      
+            <div class="col-6 text-end">
+                <a asp-controller="GameModel" asp-action="Upsert" class="btn btn-outline-secondary">
+                    <i class="bi bi-plus-lg"></i> New GameModel
+                </a>
+            </div>      
         </div>
     </div>
     <div class="card-body p-4">
-            <table class="table table-info table-striped">
-                <thead>
-                <tr>
-                    <td>Title</td>
-                    <td>RegularPrice</td>
-                    <td>Publisher</td>
-                    <td>Category</td>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.Title</td>
-                        <td>@item.RegularPrice</td>
-                        <td>@item.Publisher</td>
-                        <td>
-                            @item.Category.Name
-                        </td>
-                        <td> 
-                            <div class="w-75 btn-group" role="group">
-                                <a asp-controller="GameModel" asp-action="Upsert" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm">
-                                    <i class="bi bi-pencil"></i> Edit
-                                </a>
-                                <a asp-controller="GameModel" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger btn-sm">
-                                    <i class="bi bi-trash3"></i> Delete 
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                }
-                </tbody>
-            </table> 
+        <table id="tableData" class="table table-info table-striped">
+            <thead>
+            <tr>
+                <td>Title</td>
+                <td>RegularPrice</td>
+                <td>Publisher</td>
+                <td>Category</td>
+                @* <th></th> *@
+            </tr>
+            </thead>
+        </table> 
     </div>
 </div>
+
+@section Scripts
+{
+    <script src="~/js/gameModel.js"></script>
+}
