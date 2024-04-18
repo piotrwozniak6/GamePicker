@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg"
     },
     {
+      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/gameModel.js",
+      "PackagePath": "staticwebassets/js/gameModel.js"
+    },
+    {
       "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
