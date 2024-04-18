@@ -132,4 +132,15 @@ public class GameModelController : Controller
 
         return RedirectToAction("Index");
     }
+
+    #region API CALLS
+
+    [HttpGet]
+    public IActionResult GetAll()
+    { 
+        List<GameModel> objGameModelList = _unitOfWork.GameModelRepository.GetAll(includeItems:"Category").ToList();
+        return Json(new { data = objGameModelList });
+    }
+
+    #endregion
 }
