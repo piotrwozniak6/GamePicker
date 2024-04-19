@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj": {}
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerUtility/GamePickerUtility.csproj": {}
   },
   "projects": {
-    "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj": {
+    "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerUtility/GamePickerUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj",
+        "projectUniqueName": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerUtility/GamePickerUtility.csproj",
         "projectName": "GamePickerUtility",
-        "projectPath": "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj",
+        "projectPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerUtility/GamePickerUtility.csproj",
         "packagesPath": "/Users/p.w/.nuget/packages/",
-        "outputPath": "/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/",
+        "outputPath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerUtility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/p.w/.nuget/NuGet/NuGet.Config"

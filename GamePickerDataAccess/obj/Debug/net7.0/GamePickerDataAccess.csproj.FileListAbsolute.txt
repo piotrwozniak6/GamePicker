@@ -30,3 +30,5 @@
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/ref/GamePickerDataAccess.dll
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.runtimeconfig.json
 /Users/p.w/Desktop/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.genruntimeconfig.cache
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/bin/Debug/net7.0/GamePickerDataAccess.runtimeconfig.json
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerDataAccess/obj/Debug/net7.0/GamePickerDataAccess.genruntimeconfig.cache
