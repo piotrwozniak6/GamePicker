@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KDZNkhV2kwsoucTXY5VFmXY+FLawBM8wmwiimrzpcS6NamGJaSSH1huszlTEhUAxk2VUMVERiYfp2xvn4BOJKA==",
+  "dgSpecHash": "xm47Hp4kSEjGXSmG63ys7c5aAqsuaOVAIMZhp9qhpT1wC0LWaGevG5fGFd7kVMHAGhImRXQqq+0m3q8oTCqVkQ==",
   "success": true,
-  "projectFilePath": "/Users/p.w/Desktop/GamePicker/GamePickerModels/GamePickerModels.csproj",
+  "projectFilePath": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerModels/GamePickerModels.csproj",
   "expectedPackageFiles": [
     "/Users/p.w/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/Users/p.w/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

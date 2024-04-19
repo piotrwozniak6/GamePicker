@@ -101,37 +101,6 @@ public class GameModelController : Controller
             return View(gameModelVm);
         }
     }
-    public IActionResult Delete(int? id)
-    {
-        if (id == null || id == 0)
-        {
-            return NotFound();
-        }
-
-        GameModel? item = _unitOfWork.GameModelRepository.Get(u => u.Id == id);
-
-        if (item == null)
-        {
-            return NotFound();
-        }
-        
-        return View(item);
-    }
-    [HttpPost, ActionName("Delete")]
-    public IActionResult DeletePOST(int? id)
-    {
-        GameModel? item = _unitOfWork.GameModelRepository.Get(u => u.Id == id);
-        if (item == null)
-        {
-            return NotFound();
-        }
-
-        _unitOfWork.GameModelRepository.Remove(item);
-        _unitOfWork.Save();
-        TempData["success"] = "GameModel deleted successfully";
-
-        return RedirectToAction("Index");
-    }
 
     #region API CALLS
 
@@ -140,6 +109,28 @@ public class GameModelController : Controller
     { 
         List<GameModel> objGameModelList = _unitOfWork.GameModelRepository.GetAll(includeItems:"Category").ToList();
         return Json(new { data = objGameModelList });
+    }
+    
+    [HttpDelete]
+    public IActionResult Delete(int? id)
+    {
+        var deleteGameModel = _unitOfWork.GameModelRepository.Get(u => u.Id == id);
+        if (deleteGameModel == null)
+        {
+            return Json(new { success = false, message = "Error while deleting" });
+        }
+        
+        var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, deleteGameModel.ImageUrl.TrimStart('/'));
+
+        if (System.IO.File.Exists(oldImagePath))
+        {
+            System.IO.File.Delete(oldImagePath);
+        }
+        
+        _unitOfWork.GameModelRepository.Remove(deleteGameModel);
+        _unitOfWork.Save();
+        
+        return Json(new { success = true, message = "Delete successful" });
     }
 
     #endregion

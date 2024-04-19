@@ -1,283 +1,283 @@
 {
   "Files": [
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/obj/Debug/net7.0/scopedcss/projectbundle/GamePickerWeb.bundle.scp.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/obj/Debug/net7.0/scopedcss/projectbundle/GamePickerWeb.bundle.scp.css",
       "PackagePath": "staticwebassets/GamePickerWeb.bundle.scp.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/css/site.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/favicon.ico",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/27b2390b-5a2a-4a4e-b37d-ddf4aba1b201.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/27b2390b-5a2a-4a4e-b37d-ddf4aba1b201.jpg",
       "PackagePath": "staticwebassets/images/gameModel/27b2390b-5a2a-4a4e-b37d-ddf4aba1b201.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/2eca6bee-d613-4436-9fb0-2af1d0742333.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/2eca6bee-d613-4436-9fb0-2af1d0742333.jpg",
       "PackagePath": "staticwebassets/images/gameModel/2eca6bee-d613-4436-9fb0-2af1d0742333.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/4a809a07-a4d9-434c-b7cd-ab306623b4fb.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/4a809a07-a4d9-434c-b7cd-ab306623b4fb.jpg",
       "PackagePath": "staticwebassets/images/gameModel/4a809a07-a4d9-434c-b7cd-ab306623b4fb.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/8cb932a9-aa79-4e69-8bd1-7e3ba7c027a3.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/8cb932a9-aa79-4e69-8bd1-7e3ba7c027a3.jpg",
       "PackagePath": "staticwebassets/images/gameModel/8cb932a9-aa79-4e69-8bd1-7e3ba7c027a3.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/b85658a3-7afe-4866-9e20-55e664b47a48.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/b85658a3-7afe-4866-9e20-55e664b47a48.jpg",
       "PackagePath": "staticwebassets/images/gameModel/b85658a3-7afe-4866-9e20-55e664b47a48.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ba05899c-585a-4326-804e-ffe703ed856f.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ba05899c-585a-4326-804e-ffe703ed856f.jpg",
       "PackagePath": "staticwebassets/images/gameModel/ba05899c-585a-4326-804e-ffe703ed856f.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/e149371f-2cba-42db-ab5b-5c36efa6d1bc.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/e149371f-2cba-42db-ab5b-5c36efa6d1bc.jpg",
       "PackagePath": "staticwebassets/images/gameModel/e149371f-2cba-42db-ab5b-5c36efa6d1bc.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg",
       "PackagePath": "staticwebassets/images/gameModel/ef04a615-0031-47e0-8ba7-be4a2c001bc3.jpg"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/gameModel.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/js/gameModel.js",
       "PackagePath": "staticwebassets/js/gameModel.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/js/site.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/p.w/Desktop/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
