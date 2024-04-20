@@ -1,0 +1,82 @@
+@using System.Globalization
+@model GameModel
+
+<form method="post">
+    <div class="container mt-4">
+        <div class="card shadow border-0">
+            <div class="card-header bg-primary bg-gradient text-light py-4">
+                <h3 class="text-center text-uppercase">@Model.Title</h3>
+                <p class="text-center text-white-50 fw-semibold mb-0">by @Model.Publisher</p>
+            </div>
+            <div class="card-body">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 text-center mb-3">
+                        <img src="@Model.ImageUrl" class="img-fluid rounded" alt="Game Image" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <span class="badge bg-primary">@Model.Category.Name</span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6 class="text-dark text-opacity-50 pb-2">List Price:
+                                    <span class="text-decoration-line-through">
+                                        @Model.RegularPrice.ToString("c", new CultureInfo("en-US"))
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col text-center">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th class="bg-light text-dark text-opacity-50 fw-semibold">Quantity</th>
+                                                <th class="bg-light text-dark text-opacity-50 fw-semibold">Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1-50</td>
+                                                <td>@Model.Price.ToString("c", new CultureInfo("en-US"))</td>
+                                            </tr>
+                                            <tr>
+                                                <td>51-100</td>
+                                                <td>@Model.Price50.ToString("c", new CultureInfo("en-US"))</td>
+                                            </tr>
+                                            <tr>
+                                                <td>100+</td>
+                                                <td>@Model.Price100.ToString("c", new CultureInfo("en-US"))</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <p class="text-secondary">@Html.Raw(Model.Description)</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-text bg-primary text-white border-0 fw-semibold" id="inputGroup-sizing-default">Count</span>
+                                    <input type="number" value="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" disabled class="btn btn-primary bg-gradient w-100 py-2 text-uppercase fw-semibold">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
