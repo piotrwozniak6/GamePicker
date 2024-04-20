@@ -20,7 +20,15 @@ public class HomeController : Controller
     {
         IEnumerable<GameModel> objGameModelList =
             _unitOfWork.GameModelRepository.GetAll(includeItems: "Category"); 
+        
         return View(objGameModelList);
+    }
+    public IActionResult Details(int? id)
+    {
+        GameModel objGameModel =
+            _unitOfWork.GameModelRepository.Get(u => u.Id == id, includeItems: "Category"); 
+        
+        return View(objGameModel);
     }
 
     public IActionResult Privacy()

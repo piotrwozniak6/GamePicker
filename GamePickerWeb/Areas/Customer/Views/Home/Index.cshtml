@@ -1,38 +1,34 @@
 ﻿@using System.Globalization
 @model IEnumerable<GameModel> 
 
-<div class="row pb-3">
-    @foreach (var gameModel in Model)
-    {
-        <div class="col-lg-3 col-sm-6">
-            <div class="row p-2">
-                <div class="col-12 p-1">
-                    <div class="card border-0 p-3 shadow border-top border-5 rounded">
-                        <img src="@gameModel.ImageUrl" class="card-img-top"/>
-                        <div class="card-body pb-0">
-                            <div class="pl-1">
-                                <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@gameModel.Title</p>
-                                <p class="card-title text-warning text-center">by <b>@gameModel.Publisher</b></p>
-                            </div>
-                            <div class="pl-1">
-                                <p class="text-dark text-opacity-75 text-center">
-                                    Regular price <span class="text-decoration-line-through">@gameModel.RegularPrice.ToString("c", new CultureInfo("en-US"))</span>
-                                </p>
-                            </div>
-                            <div class="pl-1">
-                                <p class="text-dark text-opacity-75 text-center">
-                                    Prices starting from: <span>@gameModel.Price100.ToString("c", new CultureInfo("en-US"))</span>
-                                </p>
-                            </div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-3">
+        @foreach (var gameModel in Model)
+        {
+            <div class="col">
+                <div class="card border-0 p-3 shadow rounded">
+                    <img src="@gameModel.ImageUrl" class="card-img-top" alt="Game Image"/>
+                    <div class="card-body pb-0">
+                        <div class="text-center">
+                            <p class="card-title h5 text-uppercase">@gameModel.Title</p>
+                            <p class="card-title text-warning">by <b>@gameModel.Publisher</b></p>
                         </div>
-                        <div>
-                            <a href="#" class="btn btn-primary bg-gradient border-0 form-control">
-                                Details
-                            </a>
+                        <div class="text-center">
+                            <p class="text-dark text-opacity-75">
+                                Regular price <span class="text-decoration-line-through">@gameModel.RegularPrice.ToString("c", new CultureInfo("en-US"))</span>
+                            </p>
+                            <p class="text-dark text-opacity-75">
+                                Prices starting from: <span>@gameModel.Price100.ToString("c", new CultureInfo("en-US"))</span>
+                            </p>
                         </div>
-                    </div>  
-                </div>
+                    </div>
+                    <div class="text-center">
+                        <a asp-action="Details" asp-route-id="@gameModel.Id" class="btn btn-primary bg-gradient border-0">
+                            Details
+                        </a>
+                    </div>
+                </div>  
             </div>
-        </div>
-    }
+        }
+    </div>
 </div>
