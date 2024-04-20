@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using GamePickerDataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using GamePickerModels.Models;
 
@@ -8,15 +9,18 @@ namespace GamePickerWeb.Areas.Customer.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly IUnitOfWork _unitOfWork;
+    public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
     {
         _logger = logger;
+        _unitOfWork = unitOfWork;
     }
 
     public IActionResult Index()
     {
-        return View();
+        IEnumerable<GameModel> objGameModelList =
+            _unitOfWork.GameModelRepository.GetAll(includeItems: "Category"); 
+        return View(objGameModelList);
     }
 
     public IActionResult Privacy()
