@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("90036960-802c-4d04-87c9-53a5b1508041")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamePickerWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

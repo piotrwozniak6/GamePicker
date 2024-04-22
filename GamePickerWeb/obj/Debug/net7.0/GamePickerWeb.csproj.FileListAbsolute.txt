@@ -518,3 +518,11 @@
 /Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/obj/Debug/net7.0/GamePickerWeb.MvcApplicationPartsAssemblyInfo.cs
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/p.w/Desktop/Projects/C#/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll
