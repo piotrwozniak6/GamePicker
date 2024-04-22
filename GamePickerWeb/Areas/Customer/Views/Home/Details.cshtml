@@ -9,11 +9,14 @@
                 <p class="text-center text-white-50 fw-semibold mb-0">by @Model.Publisher</p>
             </div>
             <div class="card-body">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-3 text-center mb-3">
+                        <a asp-action="Index" class="btn btn-outline-primary bg-gradient mb-5 fw-semibold btn-sm text-uppercase">
+                            <small>Back to home</small>
+                        </a>
                         <img src="@Model.ImageUrl" class="img-fluid rounded" alt="Game Image" />
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="row mb-3">
                             <div class="col">
                                 <span class="badge bg-primary">@Model.Category.Name</span>
