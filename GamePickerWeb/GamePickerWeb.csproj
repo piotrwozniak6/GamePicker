@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\GamePickerDataAccess\GamePickerDataAccess.csproj" />
+      <ProjectReference Include="..\GamePickerUtility\GamePickerUtility.csproj" />
     </ItemGroup>
 
     <ItemGroup>

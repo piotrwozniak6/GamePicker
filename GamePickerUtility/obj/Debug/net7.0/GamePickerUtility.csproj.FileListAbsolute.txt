@@ -1,0 +1,12 @@
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/bin/Debug/net7.0/GamePickerUtility.deps.json
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/bin/Debug/net7.0/GamePickerUtility.dll
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/bin/Debug/net7.0/GamePickerUtility.pdb
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.csproj.AssemblyReference.cache
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.AssemblyInfoInputs.cache
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.AssemblyInfo.cs
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.csproj.CoreCompileInputs.cache
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.dll
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/refint/GamePickerUtility.dll
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/GamePickerUtility.pdb
+/Users/p.w/Desktop/GamePicker/GamePickerUtility/obj/Debug/net7.0/ref/GamePickerUtility.dll

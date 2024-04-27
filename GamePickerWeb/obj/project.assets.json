@@ -4671,6 +4671,19 @@
         "runtime": {
           "bin/placeholder/GamePickerModels.dll": {}
         }
+      },
+      "GamePickerUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.18"
+        },
+        "compile": {
+          "bin/placeholder/GamePickerUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamePickerUtility.dll": {}
+        }
       }
     }
   },
@@ -12914,11 +12927,17 @@
       "type": "project",
       "path": "../GamePickerModels/GamePickerModels.csproj",
       "msbuildProject": "../GamePickerModels/GamePickerModels.csproj"
+    },
+    "GamePickerUtility/1.0.0": {
+      "type": "project",
+      "path": "../GamePickerUtility/GamePickerUtility.csproj",
+      "msbuildProject": "../GamePickerUtility/GamePickerUtility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "GamePickerDataAccess >= 1.0.0",
+      "GamePickerUtility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.18",
       "Microsoft.EntityFrameworkCore >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.16",
@@ -12955,6 +12974,9 @@
           "projectReferences": {
             "/Users/p.w/Desktop/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj": {
               "projectPath": "/Users/p.w/Desktop/GamePicker/GamePickerDataAccess/GamePickerDataAccess.csproj"
+            },
+            "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj": {
+              "projectPath": "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj"
             }
           }
         }
