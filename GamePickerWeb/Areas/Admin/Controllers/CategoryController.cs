@@ -1,11 +1,14 @@
 using GamePickerDataAccess.Data;
 using GamePickerDataAccess.Repository.IRepository;
 using GamePickerModels.Models;
+using GamePickerUtility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GamePickerWeb.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = SD.Role_Admin)]
 public class CategoryController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;

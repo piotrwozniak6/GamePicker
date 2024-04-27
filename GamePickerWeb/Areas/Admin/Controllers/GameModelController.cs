@@ -2,6 +2,8 @@ using GamePickerDataAccess.Data;
 using GamePickerDataAccess.Repository.IRepository;
 using GamePickerModels.Models;
 using GamePickerModels.ViewModels;
+using GamePickerUtility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,6 +11,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace GamePickerWeb.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = SD.Role_Admin)]
 public class GameModelController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;

@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUU30hYHQ0SgRq12RwbJxLgayTcCmw2RW2ca99m7MU3BSOdp1XLmZxCdaAxgcAvFhOqfosC9nhUp0sZ0XAN9nA==",
+  "dgSpecHash": "8uBOIZZLDzlOVfeqFnGOR6ewURLKJgoCv3bHv1doJkJ8/f2KOcby2WfAkWea+tE6b6OW1tHwHfWKO2PrTytO2g==",
   "success": true,
   "projectFilePath": "/Users/p.w/Desktop/GamePicker/GamePickerUtility/GamePickerUtility.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/p.w/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.18/microsoft.aspnetcore.cryptography.internal.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.18/microsoft.aspnetcore.cryptography.keyderivation.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.18/microsoft.aspnetcore.identity.ui.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.fileproviders.embedded/7.0.18/microsoft.extensions.fileproviders.embedded.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.identity.core/7.0.18/microsoft.extensions.identity.core.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.identity.stores/7.0.18/microsoft.extensions.identity.stores.7.0.18.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/p.w/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

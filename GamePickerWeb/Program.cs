@@ -1,8 +1,10 @@
 using GamePickerDataAccess.Data;
 using GamePickerDataAccess.Repository;
 using GamePickerDataAccess.Repository.IRepository;
+using GamePickerUtility;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +16,15 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var connString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connString));
 
-builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath= $"/Identity/Account/AccessDenied";
+});
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<IEmailSender, ES>();
 
 var app = builder.Build();
 

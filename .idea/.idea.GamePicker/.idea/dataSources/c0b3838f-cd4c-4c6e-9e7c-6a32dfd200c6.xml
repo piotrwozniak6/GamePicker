@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
   <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.49">
-    <root id="1"/>
+    <root id="1">
+      <ServerVersion>16.0.4085</ServerVersion>
+    </root>
     <database id="2" parent="1" name="Bulky">
       <ObjectId>8</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>

@@ -9,6 +9,7 @@
       "GamePickerWeb/1.0.0": {
         "dependencies": {
           "GamePickerDataAccess": "1.0.0",
+          "GamePickerUtility": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "7.0.18",
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.16",
@@ -2847,6 +2848,14 @@
         "runtime": {
           "GamePickerModels.dll": {}
         }
+      },
+      "GamePickerUtility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.18"
+        },
+        "runtime": {
+          "GamePickerUtility.dll": {}
+        }
       }
     }
   },
@@ -4724,6 +4733,11 @@
       "sha512": ""
     },
     "GamePickerModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GamePickerUtility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

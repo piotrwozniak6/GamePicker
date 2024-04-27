@@ -534,3 +534,5 @@
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/GamePickerUtility.dll
+/Users/p.w/Desktop/GamePicker/GamePickerWeb/bin/Debug/net7.0/GamePickerUtility.pdb
